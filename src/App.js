@@ -66,8 +66,10 @@ function DummyForm() {
 export default function App() {
   return (
     <div className="App">
-      <h1>Hello CodeSandbox</h1>
-      <h2>Start editing to see some magic happen!</h2>
+      <h1>Hello Everybody</h1>
+      <h2>
+        This is an example of using a modal box with a blurred background.
+      </h2>
       <Modal>
         <Modal.Open opens="table">
           <Button>Show table</Button>
