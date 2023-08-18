@@ -39,7 +39,7 @@ const TableRow = styled.div`
   }
 `;
 
-function DummyForm() {
+function DummyTable() {
   return (
     <>
       <Table role="table">
@@ -75,7 +75,7 @@ export default function App() {
           <Button>Show table</Button>
         </Modal.Open>
         <Modal.Window name="table">
-          <DummyForm />
+          <DummyTable />
         </Modal.Window>
       </Modal>
     </div>
