@@ -63,7 +63,7 @@ function Modal({ children }) {
   const close = () => setOpenName("");
   const open = setOpenName;
 
-  // Provider allows choldren compenents to access global vairables
+  // Provider allows children compenents to access global vairables
   // pass in the props to the global context to provide access to child
   // components
   return (
